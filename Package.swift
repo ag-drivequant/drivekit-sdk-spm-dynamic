@@ -9,42 +9,52 @@ let package = Package(
     products: [
         .library(
             name: "DriveKitTripAnalysis",
+            type: .dynamic,
             targets: ["DriveKitTripAnalysisWrapper"]
         ),
         .library(
             name: "DriveKitDriverData",
+            type: .dynamic,
             targets: ["DriveKitDriverDataWrapper"]
         ),
         .library(
             name: "DriveKitCore",
+            type: .dynamic,
             targets: ["DriveKitCoreWrapper"]
         ),
         .library(
             name: "DriveKitTripSimulator",
+            type: .dynamic,
             targets: ["DriveKitTripSimulatorWrapper"]
         ),
         .library(
             name: "DriveKitTripSimulatorNoop",
+            type: .dynamic,
             targets: ["DriveKitTripSimulatorNoopWrapper"]
         ),
         .library(
             name: "DriveKitVehicle",
+            type: .dynamic,
             targets: ["DriveKitVehicleWrapper"]
         ),
         .library(
             name: "DriveKitDriverAchievement",
+            type: .dynamic,
             targets: ["DriveKitDriverAchievementWrapper"]
         ),
         .library(
             name: "DriveKitCoaching",
+            type: .dynamic,
             targets: ["DriveKitCoachingWrapper"]
         ),
         .library(
             name: "DriveKitChallenge",
+            type: .dynamic,
             targets: ["DriveKitChallengeWrapper"]
         ),
         .library(
             name: "DriveKitGroup",
+            type: .dynamic,
             targets: ["DriveKitGroupWrapper"]
         ),
     ],
